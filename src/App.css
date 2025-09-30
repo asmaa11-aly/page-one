@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+body {
+  background: linear-gradient(180deg, #18082E 0%, #501A97 92.79%);
+}
+
+@media (max-width: 767.98px) {
+  .hero-section img,
+  .img-fluid {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 100% !important;
+    
+  }
+}
+
+@media (max-width: 575.98px) {
+  .hero-section {
+    padding-top: 1200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    margin-bottom: 3rem;
+  }
+
+ 
+  .hero-section .container {
+    margin-top: -1rem; 
+  }
+}
+
+
+.prediction-card {
+  width: 360px;           
+  aspect-ratio: 1 / 1;    
+  background: rgba(206, 170, 255, 0.3);
+  border-radius: 40px;
+  border: 2px solid #fff;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.prediction-card img {
+  max-width: 70%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.83);
+}
+
+.heart-img {
+  width: 220px;
+  height: 146px;
+}
+
+.diabetes-img {
+  width: 380px;
+  height: 254px;
+}
+
+.cancer-img {
+  width: 200px;
+  height: 200px;
+  transform: rotate(3deg);
+}
+
+/* الروبوت */
+.robot-img {
+  max-width: 280px;
+}
+
+.hero-bottom {
+  margin-top: 150px; 
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.hero-bottom-title {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.hero-bottom-title .highlight {
+  color: #b897ff;
+}
+
+.hero-bottom-btn {
+  border-radius: 50px;
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+.hero-bottom-btn:hover {
+  background: #8238E5;
+  border-color: #8238E5;
+}
+
+.hero-dna-img {
+  max-width: 1000px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.footer-bg {
+  background-color: #3b0562; 
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+
+.footer-brand {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+
+.footer-follow {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+}
+
+.footer-icon {
+  color: #000;
+  font-size: 1.25rem;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer-icon:hover {
+  color: #222;
+}
+
+
+.footer-link {
+  color: rgba(255, 255, 255, 0.65);
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: #fff;
+}
+
+
+.footer-copy {
+  color: #fff;
+  text-align: right;
+  font-size: 20px;
+  margin-top: 0.75rem;
+}
+@media (max-width: 767.98px) {
+  .footer-copy {
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 991.98px) {
+  .prediction-card {
+    width: 90%;
+    max-width: 320px;
+    aspect-ratio: auto;
+    padding: 15px;
+  }
+
+  .hero-bottom-title {
+    font-size: 1.5rem;
+  }
+
+  .hero-dna-img {
+    max-width: 90%;
+  }
+
+  .img-fluid {
+    max-width: 90%;
+    height: auto;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .display-4 {
+    font-size: 2rem;
+  }
+
+  .hero-section p,
+  .card-text {
+    font-size: 0.9rem;
+  }
+
+  .hero-bottom {
+    margin-top: 80px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+
+  .prediction-card img {
+    max-width: 60%;
+  }
+}
